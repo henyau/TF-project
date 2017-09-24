@@ -75,16 +75,13 @@ The final model consisted of the following layers:
 | Convolution 5x5     	| 1x1 stride, valid padding, outputs 28x28x24 	|
 | ReLu					|												|
 | Max pooling	      	| 2x2 stride,  outputs 14x14x24
-|
 | Convolution 5x5     	| 1x1 stride, valid padding, outputs Output 10x10x48|
 | ReLu					|												|
-| Max pooling	      	| 2x2 stride,  outputs 10x10x48 
-|						|								
+| Max pooling	      	| 2x2 stride,  outputs 10x10x48 							
 | Flatten               | Output 1200x1
 | Fully Connected      	| Output 256
 | ReLu					|												|
 | Dropout				| Keep probability of 0.7	
-|
 | Fully Connected      	| Outputs 96x1 	|
 | ReLu					|												|
 | Dropout				| Keep probability of 0.7					    |
